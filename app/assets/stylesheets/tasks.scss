@@ -1,0 +1,55 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.box {
+  display: flex;
+  width: 500px;
+  height: 80px;
+  background-color: #eff3ef;
+  color: black;
+  border-radius: 10px;
+  align-items: center;
+  padding-left: 10px;
+}
+
+p a {
+  text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+  }
+
+.container-nonbs {
+  padding: 0 15px;
+  margin: 0px;
+}
+
+.separation-box {
+  padding-left: 15px;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 15px;
+  padding-top: 5px;
+}
+
+.back-home {
+  margin-top: 10px;
+}
+
+.form-area {
+  margin-bottom: 15px;
+}
+
+.form-area input {
+  width: 1000px;
+  height: 50px;
+  border-radius: 2px;
+}
+
+.pad {
+  padding: 0 10px;
+}
+
+.top-banner {
+  display: flex;
+}

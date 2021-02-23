@@ -1,0 +1,20 @@
+<div class="container-nonbs">
+  <h1>My tasks</h1>
+  <% @tasks.each do |task| %>
+    <p><% if task.completed %>
+          <input type="checkbox" checked disabled>
+        <% else %>
+          <input type="checkbox" disabled>
+        <% end %>
+      <%= link_to task.title, task_path(task)%>
+    </p>
+  <% end %>
+</div>
+
+<div class="separation-box">
+  <p><%= link_to "Add a new task", new_task_path%></p>
+</div>
+
+
+
+
